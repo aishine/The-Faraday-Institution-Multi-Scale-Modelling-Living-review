@@ -6,7 +6,6 @@ sectionModelling__Ma.tex
 r7gs9vt3sto.tex
 figures/ex_sin
 colorgreen_Figreffig.tex
-figures/ex_dash
 nlp0engb72k.tex
 sectionBattery_Manag.tex
 sectionMathematical.tex
