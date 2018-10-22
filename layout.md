@@ -4,6 +4,8 @@ sectionIntroductionl.tex
 untitled.tex
 untitled1.tex
 sectionModelling__Ma.tex
+figures/ex_plotly
+r7gs9vt3sto.tex
 figures/ex_sin
 colorgreen_Figreffig.tex
 sectionBattery_Manag.tex
