@@ -1,0 +1,75 @@
+\documentclass[twoside,twocolumn,9pt]{article}
+\usepackage{extsizes}
+\usepackage[super,sort&compress,comma]{natbib} 
+\usepackage[version=3]{mhchem}
+\usepackage[left=1.5cm, right=1.5cm, top=1.785cm, bottom=2.0cm]{geometry}
+\usepackage{balance}
+%\usepackage{widetext}
+\usepackage{times,mathptmx}
+\usepackage{sectsty}
+\usepackage{graphicx} 
+\usepackage{lastpage}
+\usepackage[format=plain,justification=raggedright,singlelinecheck=false,font={stretch=1.125,small,sf},labelfont=bf,labelsep=space]{caption}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{fnpos}
+\usepackage[english]{babel}
+\usepackage{array}
+\usepackage{droidsans}
+\usepackage{charter}
+\usepackage[T1]{fontenc}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage[compact]{titlesec}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\definecolor{cream}{RGB}{222,217,201}
+
+\def\myunit#1{\unskip\,\textrm{#1}}
+\def\SPSB#1#2{\rlap{\textsuperscript{\textcolor{red}{#1}}}\SB{#2}}
+\newcommand{\angstrom}{\mbox{\normalfont\AA}}
+\newcommand{\argmin}{\operatornamewithlimits{arg\ min}}
+\newcommand{\mathcolorbox}[2]{\colorbox{#1}{$\displaystyle #2$}}
+
+\begin{document}
+%%%TITLE, AUTHORS AND ABSTRACT%%%
+\title{The Faraday Institution Multi-Scale Modelling Living review}
+
+\author{Multiscale Modelling collaboration} 
+
+\twocolumn[
+  \begin{@twocolumnfalse}
+    \maketitle
+    \begin{abstract}
+      \input{abstract_intro/abstract}
+    \end{abstract}
+  \end{@twocolumnfalse} 
+]
+
+%%%MAIN TEXT%%%%
+\section{Introduction}\label{sec:introduction}
+
+\input{abstract_intro/intro}
+
+\section{Technoeconomics}\label{sec:technoeconomics}
+
+\section{Materials}\label{sec:materials}
+
+\section{Modelling - Materials, Cells, Packs}\label{sec:modelling}
+
+{\color{green} Example text including chemical notation\cite{Schlueter2018} }
+
+\input{modelling/mean_field_models}
+
+\section{Battery Management Systems}\label{sec:bms}
+
+\section{Mathematical methods}\label{sec:maths}
+
+\section{Policy}\label{sec:policy}
+
+%%%REFERENCES%%%
+\bibliography{references} 
+\bibliographystyle{rsc} %the RSC's .bst file
+
+\end{document}

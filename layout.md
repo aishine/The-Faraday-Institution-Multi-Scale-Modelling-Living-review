@@ -1,0 +1,11 @@
+abstract.tex
+twocolumn__begintwoc.tex
+sectionIntroductionl.tex
+untitled.tex
+untitled1.tex
+sectionModelling__Ma.tex
+figures/ex_sin
+colorgreen_Figreffig.tex
+sectionBattery_Manag.tex
+sectionMathematical.tex
+untitled2.tex
