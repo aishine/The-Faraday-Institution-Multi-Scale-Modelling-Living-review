@@ -1,5 +1,4 @@
 abstract.tex
-twocolumn__begintwoc.tex
 sectionIntroductionl.tex
 untitled.tex
 untitled1.tex
