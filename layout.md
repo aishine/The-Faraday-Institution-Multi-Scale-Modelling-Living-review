@@ -11,3 +11,4 @@ colorgreen_Figreffig.tex
 sectionBattery_Manag.tex
 sectionMathematical.tex
 untitled2.tex
+figures/ex_plotly1
