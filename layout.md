@@ -10,3 +10,4 @@ nlp0engb72k.tex
 sectionBattery_Manag.tex
 sectionMathematical.tex
 untitled2.tex
+figures/lines
