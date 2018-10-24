@@ -4,7 +4,6 @@ untitled.tex
 untitled1.tex
 sectionModelling__Ma.tex
 r7gs9vt3sto.tex
-figures/ex_sin
 colorgreen_Figreffig.tex
 nlp0engb72k.tex
 sectionBattery_Manag.tex
