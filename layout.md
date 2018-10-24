@@ -9,4 +9,5 @@ colorgreen_Figreffig.tex
 nlp0engb72k.tex
 sectionBattery_Manag.tex
 sectionMathematical.tex
+figures/lines
 untitled2.tex
